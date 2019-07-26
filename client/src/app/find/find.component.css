@@ -1,0 +1,56 @@
+
+.textbox{
+  
+  display: inline;
+  
+}
+.inputs{
+
+  position: relative;
+  margin: 3% auto 0;
+  display: table;
+  
+}
+
+.route
+{   
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+  
+}
+.form-group{
+  display: inline;
+}
+button
+{
+  margin: 2%;
+}
+
+.btn{   
+  padding: 0 2% auto;
+  margin: 0 2%;
+  width:100%;
+}
+
+.btn button{
+  border-radius: 1.5cm;
+  border: 2px solid rgba(30, 209, 140, 0.4);
+  background: rgb(3, 247, 104, 0.5);
+  width: 30%;
+  margin: 1% auto;
+  outline: none;
+}
+
+.ride, .share{
+  height: 50vh;
+  border: 1px solid rgba(30, 209, 140, 0.4);
+  margin: 5px auto;
+}
+.card{
+  height: 70%;
+  width: 30%;
+  border: 1px solid salmon;
+  background: black;
+}

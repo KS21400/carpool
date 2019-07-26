@@ -1,0 +1,74 @@
+<div class="  route">
+
+    <div class="inputs">
+        <div class=" textbox col-md-12 col-xs-12">
+        <tr>
+           <td> <input type="text" class="form-control" [(ngModel)]="name" name="name" placeholder="Name"></td>
+        </tr>
+        </div>
+       
+        <div class=" textbox col-md-12 col-xs-12">
+            <tr>
+               <td> <input type="text" class="form-control" id="inputStartingPoint" [(ngModel)]="Starting" name="Starting" placeholder="Starting Point"></td>
+            </tr>
+        </div>
+        
+        <div class=" textbox col-md-12 col-xs-12">
+            <tr>
+                
+               <td> <input type="text" class="form-control" id="inputDestination" name="Destination" [(ngModel)]="Destination" placeholder="Destination"></td>
+            </tr>
+        </div></div>
+    
+      <div class="btn">
+        <button type="submit" class="" (click)="up_DataS()">Share</button><br>
+        <button type="submit" class="" (click)="up_DataR()">Ride</button>
+      </div>
+       
+      <div class="share">
+          <h4>Popular Shares</h4>
+          <div class="row">
+                <div class="col-3" *ngFor="let obj of arr">
+                  <div class="card" >
+                    <img class="card-img-top" src="../../assets/img/apple-touch-icon.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">{{obj.name}}</h5>
+                      <p class="card-text">{{obj.Starting}}</p>
+                      <p class="card-text">{{obj.Destination}}</p>
+
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <button type= "submit" [routerLink]= "['/update', obj._id]">update</button>
+              
+                      <a (click)= "delData(obj._id)" class="btn btn-danger">delete</a>
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+
+      <div class="ride">
+            <h4>Popular Ride</h4>
+            <div class="row">
+                    <div class="col-3" *ngFor="let obj of arr">
+                      <div class="card" >
+                        <img class="card-img-top" src="../../assets/img/apple-touch-icon.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">{{obj.name}}</h5>
+                          <p class="card-text">{{obj.Starting}}</p>
+                          <p class="card-text">{{obj.Destination}}</p>
+
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type= "submit" [routerLink]= "['/update', obj._id]">update</button>
+                  
+                          <a (click)= "delData(obj._id)" class="btn btn-danger">delete</a>
+                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+        </div>
+
+     </div>

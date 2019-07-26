@@ -1,0 +1,175 @@
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 25px 0 10px 0;
+  position: relative;
+}
+.avatar {
+  width: 125px;
+height:125px;
+  border-radius: 50%;
+  border: 2px solid saddlebrown;
+  
+}
+
+/* The Modal (background) */
+.modal {
+  background: url(../../assets/img/carpoolweek.jpg);
+  background-size: cover;
+  display:block;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  top: 0vh;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  overflow: auto;
+  padding-bottom: 3%;
+}
+
+/* Modal Content Box */
+.modal-content {   
+   margin: 0 auto 0 auto;
+  border: 2px solid #989c9b52;
+  width: 35%;
+  height: 80vh;
+  margin-top: 0;
+  background-color: rgba(14, 14, 14, 0.78);
+  border-radius: 1cm;
+  margin-top: 0;
+
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  animation: zoom 0.6s
+}
+@keyframes zoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.login-box{
+  text-align: center;
+  margin: 5% 0 auto;
+}
+.heading h3{
+  margin: 10%;
+  color: antiquewhite;
+   font-size: 35px;
+}
+.textbox{ 
+  padding: 3% ;
+  width: 80%;
+  overflow: hidden;
+  font-size: 30px;
+   margin: 0 auto;
+  border-bottom: 1px solid  #26e292;
+  margin-bottom: 30px;
+  color: #babbbf;
+
+}
+.textbox i{
+  width: 40px;
+  float: left;
+  text-align: center; 
+  margin-top: 6px;   
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color:whitesmoke;
+  font-size: 25px;
+  width: 80%;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 5px;
+
+}
+.btn{
+  border-radius: 50px;
+  height:1.5cm;
+  width: 50%;
+  border: 2px solid  #26e292;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  background-color:rgba(31, 212, 91, 0.35);
+}
+
+@media (max-width: 900px){
+ 
+  .btn{
+    border-radius: 50px;
+    height:1.5cm;
+    width: 50%;
+    border: 2px solid  #26e292;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color:rgba(31, 212, 91, 0.35);
+  }
+.modal-content {   
+   margin: 0 auto 0 auto;
+  border: 2px solid #989c9b52;
+  width: 60%;
+  height: 80vh;
+  margin-top: 8vh;
+  background-color: rgba(14, 14, 14, 0.78);
+  border-radius: 1cm
+
+
+}
+.textbox{ 
+  padding: 3% ;}
+
+} 
+@media (max-width: 507px){
+ 
+  .btn{
+    border-radius: 80px;
+    height:1.5cm;
+    width: 70%;
+    border: 2px solid  #26e292;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color:rgba(31, 212, 91, 0.35);
+  }
+.modal-content {   
+  /* margin: 0 auto 0 auto; */
+  border: 2px solid #989c9b52;
+  width: 80%;
+  height: 75vh;
+  background-color: rgba(14, 14, 14, 0.78);
+  border-radius: 1cm
+
+
+}
+
+}

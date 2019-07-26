@@ -1,0 +1,10 @@
+.bg-dark
+{
+background-color: #26e292!important;
+/* border-radius: 0.5cm; */
+border: rgba(253, 251, 251, 0.418) solid 3px;
+outline: none}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(251, 251, 251);
+}

@@ -1,0 +1,160 @@
+
+<!-- <h1 style="text-align:center; font-size:50px; color:#fff">Modal Popup Box Login Form</h1> -->
+
+<!-- <button onclick="document.getElementById('modal-wrapper').style.display='block'" >
+Open Popup</button> -->
+
+<div id="modal-wrapper" class="modal col-xs-12">
+  
+  <form class="modal-content animate" action="/action_page.php">
+<!--         
+    <!-- <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <img src="../../assets/img/logo.png" alt="Avatar" class="avatar"><br><br> -->
+     <div class="heading"> <h3 style="text-align:center" >Create Account</h3>
+    </div> 
+
+    <div class="SignIn-box">
+      <div class="textbox">
+        <i class="fa fa-user"></i> 
+        <input type="text" placeholder="Full Name">
+      </div>
+      <div class="textbox">
+        <i class="fa fa-user"></i> 
+        <input type="text" placeholder="Mobile No.">
+      </div>
+    
+      <div class="textbox">
+        <i class="fa fa-lock"></i>
+        <input type="password" placeholder="Password">
+      </div>
+    
+      <input type="button" class="btn" value="Login"><br><br>
+      <a [routerLink]= "['/login']"><p class="not-yet-user">Already a User? Log In</p></a>
+    </div>
+
+
+  </form>
+  
+</div>
+<script>
+  // If user clicks anywhere outside of the modal, Modal will close
+  
+  var modal = document.getElementById('modal-wrapper');
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+
+
+
+<!-- 
+<div class="form-box ">
+    
+<div class="Sign-In col-md-6 col-xs-12 " id="form-work wrapper" >
+  <h1>Create Account</h1>
+  <div class="bg">
+  <div class="textbox form-group ">
+    <i class="fas fa-user"></i>
+    <input type="password" class="form-control" id="userName" [(ngModel)]="userName" placeholder="userName" name="userName">
+  </div>
+      <div class="textbox form-group ">
+       <i class="fas fa-envelope"></i>
+       <input type="email" class="form-control" id="inputEmail4" [(ngModel)]="email" placeholder="Email" name="email">  
+    </div>
+      <div class="textbox form-group  ">
+    <i class="fas fa-user"></i>
+    <input type="text" class="form-control" [(ngModel)]="fullname" name="fullname">
+  </div>
+
+  <div class="textbox form-group " >
+    <i class="fas fa-lock"></i>
+    <input type="password" class="form-control" id="inputPassword4" [(ngModel)]="password" placeholder="Password" name="password">
+  </div>
+    
+ <div class="textbox form-group ">
+    <i class="fas fa-lock"></i>
+    <input type="password" class="form-control" id="inputPassword4" [(ngModel)]="confirmPassword" placeholder="confirmPassword" name="confirmPassword">
+  </div>
+
+  <input type="button" class="btn" value="Sign in">
+  <a href="login.html" target=""> <p class="already-message">Already a user? Log In</p></a>
+
+</div>
+</div>
+  </div> -->
+
+  <!-- <div id="wrapper" class="container">
+  
+    <figure class="page-head-image">
+      <img src="http://loremflickr.com/300/300/person" />
+    </figure>
+    
+    <h1>Work with us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro et necessitatibus exercitationem enim temporibus nobis facere? Quaerat aliquam.</p>
+    <p><strong>Send your personal info to:</strong> <a href="mailto:workwithus@gmail.com">workwithus@gmail.com</a></p>
+  
+      <form id="form-work" class="" name="form-work" action="#">
+        
+        <fieldset>
+        
+          <div class="form-group">
+            <div class="">
+              <label class="control-label" for="nome">Name</label>
+              <input name="nome" class="form-control" placeholder="Kelly" type="text">
+              </div>
+            </div>
+  
+          <div class="form-group">
+              <div class="col-md-6">
+                <label class="control-label" for="surname">Nachname</label>
+                <input name="surname" class="form-control" placeholder="Slater" type="text">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="col-md-6">
+                <label class="control-label" for="tel">Tel</label>
+                <div class="input-group">
+                  <span class="input-group-addon">21</span>
+                  <input name="tel" class="form-control" placeholder="9211-4957" type="text">
+                </div>
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="col-md-6">
+                <label class="control-label" for="mobile">Mobile</label>
+                <div class="input-group">
+                  <span class="input-group-addon">21</span>
+                  <input name="mobile" class="form-control" placeholder="9211-4957" type="text">
+                </div>
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="col-md-6">
+                <label class="control-label" for="email">Email</label>
+                <input name="email" class="form-control" placeholder="kelly.slater.surf@gmail.com" type="text">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="col-md-6">
+                <label class="control-label" for="district">District</label>
+                <input name="district" class="form-control" placeholder="Botafogo" type="text">
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-primary btn-lg btn-block info">Send</button>
+              </div>
+            </div>     
+        </fieldset> 
+      </form>
+  </div> -->

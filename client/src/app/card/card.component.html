@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-3" *ngFor="let obj of arr">
+    <div class="card" style="width: 18rem; margin :0 auto; background: rosybrown">
+      <img class="card-img-top" src="../../assets/img/apple-touch-icon.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{obj.name}}</h5>
+        <p class="card-text">{{obj.starting}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <button type= "submit" [routerLink]= "['/update', obj._id]">update</button>
+
+        <a (click)= "delData(obj._id)" class="btn btn-danger">delete</a>
+
+      </div>
+    </div>
+  </div>
+</div>
