@@ -1,1 +1,2 @@
 # carpool
+Carpooling is one of the biggest trends now-a-days. It is basically a sharing of car journeys so that more than one person can travel in a car, and this also prevents the need for others to have to drive to their location themselves. By having more people using one vehicle, carpooling also reduces each person's travel-costs such as: fuel costs, tolls, and the stress of driving and also saves time.
